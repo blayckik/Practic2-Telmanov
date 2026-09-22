@@ -47,7 +47,4 @@ func main() {
 	fmt.Printf("Десятичное: %d\n", num)
 	fmt.Printf("Двоичное: %s\n", binStr)
 	fmt.Printf("Шестнадцатеричное: %s\n", hexStr)
-
-	converted := convertBase("ff", hex, bin)
-	fmt.Printf("Перевод 'ff' из hex в bin: %s\n", converted)
 }
